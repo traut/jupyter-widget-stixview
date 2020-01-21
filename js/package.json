@@ -4,6 +4,7 @@
   "description": "Stixview library widget for Jupyter",
   "author": "Sergey Polzunov",
   "main": "lib/index.js",
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/traut/jupyter-widget-stixview.git"
