@@ -1,0 +1,2 @@
+recursive-include jupyter_widget_stixview/static *.*
+include jupyter-widget-stixview.json
