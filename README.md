@@ -4,8 +4,9 @@ jupyter-widget-stixview
 STIX2 graph widget for Jupyter notebook, powered by [stixview](https://github.com/traut/stixview) library.
 
 
-Example:
 ![stixview widget screenshot](https://raw.githubusercontent.com/traut/jupyter-widget-stixview/master/screen.png)
+
+(see [stixview-widget-showcase.ipynb](https://github.com/traut/jupyter-widget-stixview/blob/master/stixview-widget-showcase.ipynb) for usage options)
 
 
 Installation
