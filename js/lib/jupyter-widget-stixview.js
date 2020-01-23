@@ -10,8 +10,8 @@ var StixviewGraphModel = widgets.DOMWidgetModel.extend({
         _view_name : 'StixviewGraphView',
         _model_module : 'jupyter-widget-stixview',
         _view_module : 'jupyter-widget-stixview',
-        _model_module_version : '1.0.0',
-        _view_module_version : '1.0.0',
+        _model_module_version : '1.0.1',
+        _view_module_version : '1.0.1',
 
         properties: null,
 

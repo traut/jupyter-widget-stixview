@@ -1,6 +1,6 @@
 {
   "name": "jupyter-widget-stixview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stixview library widget for Jupyter",
   "author": "Sergey Polzunov",
   "main": "lib/index.js",
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@jupyter-widgets/base": "^1.1 || ^2",
-    "stixview": "^1.2.2",
+    "stixview": "^1.2.3",
     "lodash": "^4.17.4"
   },
   "jupyterlab": {
