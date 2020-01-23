@@ -6,7 +6,7 @@ STIX2 graph widget for Jupyter notebook, powered by [stixview](https://github.co
 
 ![stixview widget screenshot](https://raw.githubusercontent.com/traut/jupyter-widget-stixview/master/screen.png)
 
-(see [stixview-widget-showcase.ipynb](https://nbviewer.ipython.org/github/traut/jupyter-widget-stixview/blob/3b26c7ba3e4b237e572db1f57f75068511364481/stixview-widget-showcase.ipynb) for usage options)
+(see [stixview-widget-showcase.ipynb](https://nbviewer.ipython.org/github/traut/jupyter-widget-stixview/blob/master/stixview-widget-showcase.ipynb) for usage options)
 
 
 Installation
