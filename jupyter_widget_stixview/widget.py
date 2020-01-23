@@ -8,8 +8,8 @@ class StixviewGraph(widgets.DOMWidget):
     _model_name = Unicode('StixviewGraphModel').tag(sync=True)
     _view_module = Unicode('jupyter-widget-stixview').tag(sync=True)
     _model_module = Unicode('jupyter-widget-stixview').tag(sync=True)
-    _view_module_version = Unicode('^1.0.0').tag(sync=True)
-    _model_module_version = Unicode('^1.0.0').tag(sync=True)
+    _view_module_version = Unicode('^1.0.1').tag(sync=True)
+    _model_module_version = Unicode('^1.0.1').tag(sync=True)
 
     properties = Dict().tag(sync=True)
 
