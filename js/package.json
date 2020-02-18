@@ -37,8 +37,9 @@
   },
   "dependencies": {
     "@jupyter-widgets/base": "^1.1 || ^2",
+    "lodash": "^4.17.4",
     "stixview": "^1.2.3",
-    "lodash": "^4.17.4"
+    "yarn": "^1.22.0"
   },
   "jupyterlab": {
     "extension": "lib/labplugin"
