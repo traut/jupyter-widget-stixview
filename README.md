@@ -1,6 +1,8 @@
 jupyter-widget-stixview
 ===============================
 
+[![PyPI version](https://badge.fury.io/py/jupyter-widget-stixview.svg)](https://badge.fury.io/py/jupyter-widget-stixview)
+
 STIX2 graph widget for Jupyter notebook, powered by [stixview](https://github.com/traut/stixview) library.
 
 
