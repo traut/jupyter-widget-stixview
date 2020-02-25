@@ -3,6 +3,8 @@ var _ = require('lodash');
 
 var stixview = require('stixview');
 
+const version = '1.0.2';
+
 
 var StixviewGraphModel = widgets.DOMWidgetModel.extend({
     defaults: _.extend(widgets.DOMWidgetModel.prototype.defaults(), {
@@ -10,8 +12,8 @@ var StixviewGraphModel = widgets.DOMWidgetModel.extend({
         _view_name : 'StixviewGraphView',
         _model_module : 'jupyter-widget-stixview',
         _view_module : 'jupyter-widget-stixview',
-        _model_module_version : '1.0.1',
-        _view_module_version : '1.0.1',
+        _model_module_version : version,
+        _view_module_version : version,
 
         properties: null,
 
