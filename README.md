@@ -1,5 +1,5 @@
 jupyter-widget-stixview
-===============================
+=======================
 
 [![PyPI version](https://badge.fury.io/py/jupyter-widget-stixview.svg)](https://badge.fury.io/py/jupyter-widget-stixview)
 
@@ -21,7 +21,7 @@ To install use pip:
 
 To install for jupyterlab
 
-    $ jupyter labextension install jupyter_widget_stixview
+    $ jupyter labextension install jupyter-widget-stixview
 
 For a development installation (requires npm),
 
@@ -41,3 +41,8 @@ To see a change, save your javascript, watch the terminal for an update.
 
 Note on first `jupyter lab --watch`, you may need to touch a file to get Jupyter Lab to open.
 
+Troubleshooting
+---------------
+In case of an error like `jlpm: not found` where a JupyterLab command is
+missing, make sure that the `bin` directory (of a Python virtual environment
+where `jupyterlab` is installed to) is on `PATH`.
