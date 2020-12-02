@@ -13,8 +13,8 @@ node_root = os.path.join(here, 'js')
 is_repo = os.path.exists(os.path.join(here, '.git'))
 
 npm_path = os.pathsep.join([
-    os.path.join(node_root, 'node_modules', '.bin'),
-                os.environ.get('PATH', os.defpath),
+    os.path.join(
+        node_root, 'node_modules', '.bin'), os.environ.get('PATH', os.defpath),
 ])
 
 from distutils import log
@@ -23,6 +23,7 @@ log.info('setup.py entered')
 log.info('$PATH=%s' % os.environ['PATH'])
 
 LONG_DESCRIPTION = 'Stixview library widget for Jupyter'
+
 
 def js_prerelease(command, strict=False):
     """decorator for building minified js/css prior to another command"""
@@ -49,6 +50,7 @@ def js_prerelease(command, strict=False):
             command.run(self)
             update_package_data(self.distribution)
     return DecoratedCommand
+
 
 def update_package_data(distribution):
     """update package_data to catch changes during setup"""
@@ -79,11 +81,11 @@ class NPM(Command):
     def get_npm_name(self):
         npmName = 'npm';
         if platform.system() == 'Windows':
-            npmName = 'npm.cmd';
-        return npmName;
+            npmName = 'npm.cmd'
+        return npmName
 
     def has_npm(self):
-        npmName = self.get_npm_name();
+        npmName = self.get_npm_name()
         try:
             check_call([npmName, '--version'])
             return True
@@ -135,7 +137,7 @@ setup_args = {
             'jupyter_widget_stixview/static/index.js',
             'jupyter_widget_stixview/static/index.js.map',
         ],),
-        ('etc/jupyter/nbconfig/notebook.d' ,['jupyter-widget-stixview.json'])
+        ('etc/jupyter/nbconfig/notebook.d', ['jupyter-widget-stixview.json'])
     ],
     'install_requires': [
         'ipywidgets>=7.0.0',

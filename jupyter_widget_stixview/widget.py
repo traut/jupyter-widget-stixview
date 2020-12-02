@@ -1,7 +1,7 @@
 import ipywidgets as widgets
 from traitlets import Unicode, default, Dict, Long
 
-version = '^1.0.2'
+version = '^1.0.3'
 
 class StixviewGraph(widgets.DOMWidget):
 
